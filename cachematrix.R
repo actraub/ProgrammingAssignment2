@@ -5,6 +5,11 @@
 ## also alternatives to matrix inversion that we will not discuss here). 
 ##Your assignment is to write a pair of functions that cache the inverse of a matrix.
 
+## Ro run the script, source it and do the following...
+
+# tempMatrix <- matrix(1:4,2,2)
+# specialMatrix <- makeCacheMatrix(tempMatrix)
+# cacheSolve(specialMatrix)
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
